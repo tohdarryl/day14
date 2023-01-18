@@ -55,8 +55,7 @@ public class Contact implements Serializable{
         while(sb.length() < numOfChar){
             sb.append(Integer.toHexString(r.nextInt()));
         }
-        return sb.toString();
-        //.substring(0,numOfChar);
+        return sb.toString().substring(0,numOfChar);
     }
 
     public String getName() {
