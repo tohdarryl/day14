@@ -36,6 +36,7 @@ public class AddressBookController {
         }
         ctcRedisSvc.save(contact);
         model.addAttribute("contact", contact);
+        //Status code: 201
         response.setStatus(HttpServletResponse.SC_CREATED);
         return "showContact";
     }
