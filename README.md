@@ -59,6 +59,12 @@ redis-cli -u redis://default:<your password>@<your redis hostname>:<redis port>
 2. Once connected
 ```
 ping -> server returns pong
+
+keys * -> returns all keys
+
+hgetall key -> returns all hashmap keys associated with the key
+
+lindex key 0 -> returns index 0 of list 'key'
 ```
 
 ## Branch
