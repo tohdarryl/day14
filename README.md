@@ -12,7 +12,7 @@ redis-server
 redis-cli
 ```
 
-3. Use maven to runapp
+3. Use maven to run app
 ```
 mvn spring-boot:run
 ```
@@ -49,4 +49,14 @@ railway up
 3. Set application.properties e.g. spring-redis.host=${REDISHOST} ...
 ```
 
+## REDISDOTCOM: How to check database on Terminal 
+
+1. To connect
+```
 redis-cli -u redis://default:<your password>@<your redis hostname>:<redis port>
+```
+
+2. Once connected
+```
+ping -> server returns pong
+```
