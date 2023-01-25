@@ -60,3 +60,21 @@ redis-cli -u redis://default:<your password>@<your redis hostname>:<redis port>
 ```
 ping -> server returns pong
 ```
+
+## Branch
+
+1. To branch out (change branch)
+```
+git checkout -b darryl
+To work on a version while not touching the present version
+```
+
+2. To return to main
+```
+git checkout main
+```
+
+3. Check current branch
+```
+git branch
+```
